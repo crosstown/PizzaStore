@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [25/Apr/2016:01:23:55 -0400] "GET /411_Pizza_Store__2/goyo.html HTTP/1.1" 200 2736
+0:0:0:0:0:0:0:1 - - [25/Apr/2016:01:23:55 -0400] "GET /node_modules/lodash/lodash.js HTTP/1.1" 404 1052
+0:0:0:0:0:0:0:1 - - [25/Apr/2016:01:23:55 -0400] "GET /node_modules/widget-examples/css/examples.css HTTP/1.1" 404 1084
+0:0:0:0:0:0:0:1 - - [25/Apr/2016:01:23:55 -0400] "GET /config/config.js HTTP/1.1" 404 1026
+0:0:0:0:0:0:0:1 - - [25/Apr/2016:01:23:55 -0400] "GET /build/build.css HTTP/1.1" 404 1024
+0:0:0:0:0:0:0:1 - - [25/Apr/2016:01:23:55 -0400] "GET /build/build.js HTTP/1.1" 404 1022
+0:0:0:0:0:0:0:1 - - [25/Apr/2016:01:23:55 -0400] "GET /node_modules/widget-examples/js/template.js HTTP/1.1" 404 1080
+0:0:0:0:0:0:0:1 - - [25/Apr/2016:01:23:55 -0400] "GET /node_modules/widget-examples/js/examples.js HTTP/1.1" 404 1080

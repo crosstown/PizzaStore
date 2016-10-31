@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head>
+<title>Client side scripting - JavaScript-Reading Data from Text
+	Boxes</title>
+	
+<script src="script.js"></script>
+</head>
+<body onload="checkUserCookie();">
+
+<link rel="stylesheet" type="text/css" href="css/cssForm1.css">
+<div class="logo"></div>
+<div class="login-block">
+    <h1>Login</h1>
+    
+    
+	<form method="get" id="myform" name="frmData" action="login">
+	
+	
+    <div class="inner-wrap">
+         <input type="text" name="userName" id="un" placeholder="Username" />
+        <input name="password" id="pw" type="password" placeholder="Password" />
+        <input type="button" value="login" name="cmdEnter"
+			onclick="checkForm();"/>
+		<input type="reset" name="cmdReset"
+			value="Clear" onclick="clearCookies();"/>
+    </div>
+    </div>
+	
+	
+		
+		
+	</form>
+</body>
+</html>

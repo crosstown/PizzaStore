@@ -1,0 +1,52 @@
+<html>
+<title>User Input Example</title>
+<h2 id="greeting">Hello</h2>
+<script src="script.js"></script>
+<h4>Please select your product.</h4>
+<HR>
+
+<link rel="stylesheet" type="text/css" href="css/myCss.css">
+</head>
+<body onload="printUser();">
+	<form name="frmProducts">
+
+
+		<div>
+			<input type="radio" name="radio" id="radio1" class="radio"  />
+			<label id="beer" for="radio1">Beer</label>
+		</div>
+
+		<div>
+			<input type="radio" name="radio" id="radio2" class="radio" /> <label id="bread"
+				for="radio2">Bread</label>
+		</div>
+
+		<div>
+			<input type="radio" name="radio" id="radio3" class="radio" /> <label id="milk"
+				for="radio3">Milk</label>
+		</div>
+
+		<div>
+			<input type="radio" name="radio" id="radio4" class="radio" /> <label id="wine"
+				for="radio4">Wine</label>
+		</div>
+		<div>
+             
+        </div>
+        <hr>
+        <div>
+        </div>
+        <div>
+        
+		<input type="button" name="cmdSubmit" value="See Product" class="styled-button-11"
+			onclick="seeProduct(); "> 
+		<input type="button" name="cmfForget" value="Forget Option" class="styled-button-11"
+			onclick="forgetProduct();">
+		<input type="button" name="cmdRemember" value="Remember Option" class="styled-button-11"
+			onclick="remOption(); ">
+		<input type="button" name="cmdBack" value="Back" class="styled-button-11"
+			onclick="backToPage1(); ">	
+		</div>
+	</form>
+</body>
+</html>

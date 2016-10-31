@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Tue May 03 18:57:15 EDT 2016
+org.eclipse.jst.j2ee.server\:jstl-1.2=WEB-INF/lib/jstl-1.2.jar
+org.eclipse.jst.j2ee.server\:ojdbc6=WEB-INF/lib/ojdbc6.jar
